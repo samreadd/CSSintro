@@ -8,6 +8,23 @@ h1 {
 p{
     color: cadetblue;
     font-weight: bold;
+}
 
+ul li:nth-child(odd){color:tan;}
 
+a:link {
+    color:green;
+    text-decoration:none;
+}
+a:hover {
+    color:hotpink;
+    font-weight:bold;
+    text-decoration:underline navy;
+}
+a:visited {
+    color:khaki;
+}
+a:active {
+    background-color: steelblue;
+    font-style: italic;
 }
